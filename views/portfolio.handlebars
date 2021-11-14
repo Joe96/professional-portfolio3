@@ -1,0 +1,186 @@
+<main>
+    <div class="row" id="welcome">
+
+        <div class="col-sm-6 prelude">
+            <p id="joel">Joel</p>
+            <p id="title">Multilingual Programmer</p>
+        </div>
+        
+        <div class="col-sm-6">
+            <div class="row"> 
+                <img class="avatar" src="images/him2.png"></img>
+            </div>
+        </div>
+        
+        <div class="info col-12">
+            <div class="row">
+                <div class="bio col"> 
+                    Software Engineer <b style="color: white;">|</b>&nbsp;
+                    Designer&nbsp; <b style="color: white;">|</b>&nbsp; 
+                    Amature Record Producer&nbsp; <b style="color:white;">|</b>&nbsp; 
+                    Entrepreneur&nbsp; <b style="color: white;">|</b>&nbsp; 
+                    Sports Fan&nbsp; <b style="color: white;">|</b>&nbsp; 
+                    Melomaniac&nbsp; <b style="color: white;">|</b>&nbsp;
+                    Political Enthusiast&nbsp; <b style="color: white;">|</b>&nbsp; 
+                    Gamer&nbsp; <b style="color: white;">|</b>&nbsp; 
+                    Techie&nbsp; <b style="color: white;">|</b>&nbsp; 
+                    Art Connoisseur&nbsp;
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <hr>
+
+    <!-- Projects Content -->
+    <div class="row justify-content-center" id="projects">
+
+        <div class="main-box">
+
+            <div class="big-circle">
+                <div class="small-circle"></div>
+            </div>
+
+            <div class="sub-box">
+
+                <h2 class="heading-name">Pong</h2>
+                <h3 class="heading-work">Andorid Application</h3>
+                <p class="info">
+                    A simple android app that fetches video game data 
+                </p>
+
+                <a href="https://github.com/Joe96/projectpong" class="project_btn">Github</a>
+
+            </div>
+            
+        </div>
+
+        <div class="main-box">
+
+            <div class="big-circle">
+                <div class="small-circle"></div>
+            </div>
+
+            <div class="sub-box">
+
+                <h2 class="heading-name">Book Club</h2>
+                <h3 class="heading-work">Web Application</h3>
+                <p class="info">
+                    A simple web app for discussing your favoirte books 
+                </p>
+
+                <a href="https://github.com/Joe96/book-store" class="project_btn">Github</a>
+
+            </div>
+            
+        </div>
+
+        <div class="main-box">
+
+            <div class="big-circle">
+                <div class="small-circle"></div>
+            </div>
+
+            <div class="sub-box">
+
+                <h2 class="heading-name">Movie App</h2>
+                <h3 class="heading-work">Web Application</h3>
+                <p class="info">
+                    A simple web app that fetches movie data 
+                </p>
+
+                <a href="https://github.com/Joe96/movies_api" class="project_btn">Github</a>
+
+            </div>
+            
+        </div>
+
+    </div>
+
+    <hr>
+
+    <!-- Skills Content -->
+    <div class="row" id="skills">
+        <div class="col-12  background">
+            <div class="container">                 
+                <div class="chart" id="chart">
+
+                    <div>
+                        <select id="subject">
+                            <option value="language" selected="selected">Language</option>
+                            <option value="technology">Technology</option>
+                            <option value="design">Design</option>
+                        </select>
+                    </div>
+                    
+                    <div class="data" id="language">
+                        <canvas id="myLChart"></canvas>
+                    </div>
+
+                    <div class="data" id="technology">
+                        <canvas id="myTChart"></canvas>
+                    </div>
+                    
+                    <div class="data" id="design">
+                        <canvas id="myDChart"></canvas>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>  
+
+    <hr> 
+
+    <!-- Contacts Content -->
+    <div class="row" id="contacts">
+
+        <div class="col-12 text-center ">       
+            <h3>Where to find me.</h3> 
+        </div>   
+
+            <div class="col-md-6 col-12 background text-center connects ">
+
+            <div class="location col">
+                <p>Minneapolis, Minnesota</p>
+                <p class="email-link">afamefune@joel996.com</p>
+            </div>
+
+            <div class="bttn">
+                <button class="linkedin-btn"><a href="https://www.linkedin.com/in/joel-afamefune-860979115/"></a></button>
+                <button class="github-btn"><a href="https://github.com/Joe96"></a></button>
+
+            </div>
+
+        </div>
+        
+        <div class="col-md-6 col-12 background text-center connects">
+
+
+            <form class="contact-form" action="email.php" method="post">
+
+                <div class="input-fields">
+                    <input name="name" type="text" class="input" placeholder="Name" required>
+                    <input name="email" type="email" class="input" placeholder="Email Address" required>
+
+                    <div class="msg">
+                        <textarea name="message" placeholder="Message" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn">Send</button>
+
+                    </div>
+            </form>
+
+        </div>
+
+
+    </div>
+</main>
+
+    <script type="text/javascript" src="js/lchart.js"></script>
+    <script type="text/javascript" src="js/tchart.js"></script>
+    <script type="text/javascript" src="js/dchart.js"></script>
+    <script type="text/javascript" src="js/form.js"></script>
+    <script type="text/javascript" src="js/dropdown.js"></script>
+    <script type="text/javascript" src="js/carousel.js"></script>

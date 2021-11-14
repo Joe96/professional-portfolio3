@@ -1,0 +1,93 @@
+:root {
+  font-size: 16px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+} 
+
+body {
+  color: #000000;
+  background-color:#FFFFFF;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+body::-webkit-scrollbar-track{
+  background-color: #FFFFFF;
+}
+body::-webkit-scrollbar-thumb{
+  background-color: #184A54;
+}
+
+#container {
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  margin: 0;
+  padding-top: 50px;
+}
+
+img.avatar {
+  margin-top: 25px;
+  max-height: 400px;
+}
+
+.background{
+  border-radius: 30px;
+  padding-top: 25px;
+  background-color: rgba(255, 255, 255, 0.205);
+}
+
+.link-text {
+  display: none;
+  margin-left: 1rem;
+}
+
+hr {
+  height: 2px;
+  background-color: #FFFFFF;
+  border: none;
+  margin: 0px;
+}  
+
+p {
+  color: black ;
+  font-family:'trebuchet ms';
+}
+
+/*
+#welcome {
+  background-color: #C0C0C0;
+  height: 100vh;
+  padding: 50px;
+  align-items: center;
+}
+*/
+
+.prelude {
+  text-align: right; 
+}
+
+#joel{
+  font-size: xx-large;
+  color: #000;
+}
+
+#title {
+  color: #000; 
+}
+
+.bio{
+  white-space: initial;
+  max-height: 100px;
+  max-width: 500px;
+  text-align: center;
+  vertical-align: middle;
+  margin: auto;
+  width: 50%;
+}

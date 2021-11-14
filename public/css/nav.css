@@ -1,0 +1,35 @@
+.navbar {
+    top: 0;
+    width: 100vw;
+    height: 5rem;
+    position: fixed;
+    z-index: 1; 
+    background-color: #C0C0C0;
+}
+.navbar-nav {
+    flex-direction: row;
+}
+.nav-link {
+    justify-content: center;
+}
+.nav-item {
+    width: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.nav-item:last-child {
+    margin-top: auto;
+}
+.navbar-brand {
+    height: 90px;
+    width: 90px;
+    margin-top: -20px;
+}
+.navbar-toggler {
+    align-self: flex-end;
+    margin-bottom: 10px;
+}
+.navbar a:hover, .dropdown:hover {
+    color: red;
+}
