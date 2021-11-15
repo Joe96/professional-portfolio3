@@ -28,8 +28,7 @@ body::-webkit-scrollbar-thumb{
 }
 
 main {
-  margin: 0;
-  padding-top: 5px;
+  height: 100vh;
 }
 
 img.avatar {

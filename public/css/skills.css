@@ -1,6 +1,7 @@
 /*Skill Section*/
 #skills {
-height: 100vh;
+    height: max-content;
+    padding: 50px;
 }
 
 .skills-info {
@@ -15,13 +16,11 @@ select {
     background-color: #FFFFFF;
     color: #000000;
     text-align: center;
-
 }
 
 .data {
     display: none;
     padding-top: 25px;
-
 }
 
 #subject {

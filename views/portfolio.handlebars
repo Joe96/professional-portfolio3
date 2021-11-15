@@ -1,4 +1,4 @@
-<main>
+<main class="main">
     <div class="row" id="welcome">
 
         <div class="col-sm-6 prelude">
@@ -31,8 +31,38 @@
 
     </div>
     <hr>
+    <!-- Skills Content -->
+    <div class="row" id="skills">
+        <div class="col-12  background">
+            <div class="container">                 
+                <div class="chart" id="chart">
 
+                    <div>
+                        <select id="subject">
+                            <option value="language" selected="selected">Language</option>
+                            <option value="technology">Technology</option>
+                            <option value="design">Design</option>
+                        </select>
+                    </div>
+                    
+                    <div class="data" id="language">
+                        <canvas id="myLChart"></canvas>
+                    </div>
+
+                    <div class="data" id="technology">
+                        <canvas id="myTChart"></canvas>
+                    </div>
+                    
+                    <div class="data" id="design">
+                        <canvas id="myDChart"></canvas>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div> 
     <!-- Projects Content -->
+    <hr>
     <div class="row justify-content-center" id="projects">
 
         <div class="main-box col-lg-12 col-xl-4">
@@ -96,42 +126,7 @@
         </div>
 
     </div>
-
-    <hr>
-
-    <!-- Skills Content -->
-    <div class="row" id="skills">
-        <div class="col-12  background">
-            <div class="container">                 
-                <div class="chart" id="chart">
-
-                    <div>
-                        <select id="subject">
-                            <option value="language" selected="selected">Language</option>
-                            <option value="technology">Technology</option>
-                            <option value="design">Design</option>
-                        </select>
-                    </div>
-                    
-                    <div class="data" id="language">
-                        <canvas id="myLChart"></canvas>
-                    </div>
-
-                    <div class="data" id="technology">
-                        <canvas id="myTChart"></canvas>
-                    </div>
-                    
-                    <div class="data" id="design">
-                        <canvas id="myDChart"></canvas>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>  
-
     <hr> 
-
     <!-- Contacts Content -->
     <div class="row" id="contacts">
 

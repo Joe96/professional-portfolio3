@@ -1,7 +1,6 @@
 /*Contact Section*/
 #contacts {
-    background-color: #C0C0C0;
-    height: 100vh;
+    height: max-content;
     padding: 50px;
 }
 
@@ -29,9 +28,9 @@ h3 {
 .msg textarea {
     background: transparent;
     border: 0px;
-    border-bottom: 2px solid #FFFFFF;
+    border-bottom: 2px solid #C0C0C0;
     padding: 10px;
-    color: #FFFFFF;
+    color: #000;
     width: 100%;
     max-width: 500px;
     height: 5%;
@@ -44,21 +43,6 @@ h3 {
     max-height: 400px;
 }
 
-::-webkit-input-placeholder {
-    /* Chrome/Opera/Safari */
-    color: #FFFFFF;
-}
-
-::-moz-placeholder {
-    /* Firefox 19+ */
-    color: #FFFFFF;
-}
-
-:-ms-input-placeholder {
-    /* IE 10+ */
-    color: #FFFFFF;
-}
-  
 .btn {
     background: #184A54;
     width: 100px;
