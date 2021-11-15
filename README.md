@@ -18,5 +18,4 @@ App runs on server.
 npm install express
 
 ## Screen shots
-![Home Page](https://user-images.githubusercontent.com/17390256/137394966-645443e7-d0ae-4789-a426-0600e39d031d.png)
-
+![Home Page](https://user-images.githubusercontent.com/17390256/141782855-955e6fc3-394a-47c1-8b1a-92cea48966ba.png)
