@@ -1,4 +1,7 @@
 /*Skill Section*/
+#skills {
+height: 100vh;
+}
 
 .skills-info {
     background-color: rgba(2, 43, 35, 0.5);

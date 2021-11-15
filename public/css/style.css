@@ -29,7 +29,7 @@ body::-webkit-scrollbar-thumb{
 
 main {
   margin: 0;
-  padding-top: 50px;
+  padding-top: 5px;
 }
 
 img.avatar {
@@ -60,14 +60,10 @@ p {
   font-family:'trebuchet ms';
 }
 
-/*
+
 #welcome {
-  background-color: #C0C0C0;
   height: 100vh;
-  padding: 50px;
-  align-items: center;
 }
-*/
 
 .prelude {
   text-align: right; 
@@ -84,10 +80,10 @@ p {
 
 .bio{
   white-space: initial;
-  max-height: 100px;
+  max-height: 50px;
   max-width: 500px;
   text-align: center;
   vertical-align: middle;
   margin: auto;
-  width: 50%;
+  width: 75%;
 }
